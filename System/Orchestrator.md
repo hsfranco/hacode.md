@@ -10,10 +10,8 @@ You need act as specialist in digital products and marketing digital
 
 # Project Structure: [name of products]
 
-Replace `[name of products]` with the real project name. The layout mirrors the `hacode` project.
-
 ```
-[hacode.md]/
+hacode.md/
 ├── Assets/             # Static files: images, logos, templates, fonts
 ├── Input/              # Raw source data (product lists, CSVs, briefs)
 ├── Output/             # Generated results (reports, exports, listings, web site, md files, images, videos)
@@ -71,15 +69,17 @@ You have to build gap research (search demand, Reddit/forum pain points, gumroad
 Build a strategy about that product for me.
 We need build the info at the database to feed the web site
 We need setup it at stripe to process the payments
-We need to build the carosel talking about the product, we need make it a video
-We need build the whole SEO for page, instagram, tiktok
-We need build profile at diferent marktplaces and other sites to share out product
-We need build campaigns by products and test 
-We need to collect info about sales and result
+We need to build the carosel talking about the product, we need make it a video, I will post it
+We need build the whole SEO for page, instagram, tiktok, youtube video, I need the strategy to record the video to youtube.
+We need build profile at different marktplaces and other sites to share our product
+We need build campaigns by products and test it, get insight and create better ads
+We need to collect info about sales and result and provide improvements to the process.
 We need learn and look for improvements and features in all steps of the operation
-We need provide the insigh to the next product we have [System/DataBase/Insights.md]
+We need provide the insight to the next product we have [System/DataBase/Insights.md]
 We need build a MCP server to provide these skills and md file system for users
 We need build a whole support process, at the web site, chat, email communications, FAQ pages
+We need define all table we need to manage the product, operations, insights and create at mysql
+We need build script to feed the database with ideias, KPIS, news, new ideias to products
 
 
 Pipeline of new products: 
@@ -103,61 +103,29 @@ I need you build the whole operations, for it:
 You know how tools I have, you know what we want, you have to user to knowledge to found best way to make it happen
 you results of this operation you have to save at Output
 
-WebApp for the Website
+WebApp for the Website files
 Products->[name of products]
 Instagram->[name of products]
 Tiktok->[name of products]
+Scripts->[what script do]
 
-I'd like to work with python for scripts you need.
-For web site, we I'd react with express, tailwind
+I'd like to you work with python for scripts you need in operations.
+For web site, we I'd like react with express, tailwind, clean code, motion effects
 
 # What the result expected
-
-# Phases
-    ## Phase 0: Foundation (once)
+    ## Phase 1: Foundation (once)
+    [System/Phases/Phase-one.md]
     
-    - [ ] Database tables: `products`, 
-                           `product_assets`, 
-                           `orders`, 
-                           `campaigns`,
-                           `content_posts`, 
-                           `weekly_metrics`, 
-                           `insights`.
-    - [ ] Website: product listing page + product detail page template, fed from the DB.
-    - [ ] Stripe: webhook endpoint (`checkout.session.completed`) that records the order and
-        sends the buyer an expiring S3 signed download link by email.
-    - [ ] Tax decision: confirm Stripe Tax is on, or move to a merchant of record
-        (Lemon Squeezy / Paddle) for VAT/sales-tax handling.
-    - [ ] Analytics: GA events (`view_item`, `begin_checkout`, `purchase`) and Search
-        Console verified.
-    - [ ] UTM convention: `utm_source` (youtube|instagram|tiktok|seo|email),
-        `utm_medium`, `utm_campaign` = product slug.
-    - [ ] Create `System/DataBase/Insights.md`.
-
-
-    The web site need: 
-      - Home page with hero, catalog of product's FAQ, footer, navbar, responsive
-      - Admin area, private access by password, dashboard, of all operations
-      -
-
-    ## Phase 1: Ship ONE product end to end
-    
+    ## Phase 2: Ship ONE product end to end
     Run the full pipeline below for a single product. Do not start Phase 2 until this
     product has been live for 14 days and we have reviewed the results.
     
-    ## Phase 2: Repeat and template
-    
+    ## Phase 3: Repeat and template
     Turn the steps that worked into reusable templates and scripts. Launch 1 new product
     per week using the same pipeline.
     
-    ## Phase 3: Expand (only after consistent sales)
-    
+    ## Phase 4: Expand (only after consistent sales)
     Marketplaces, paid ad tests, bundles, and the MCP server (see Deferred).
-
-
-We need make $1.000 profit every month, after taxes, operations, this is our goal, we have to work together to get it.
-We need generate value for our custumer, build stuffs that cause impact at their operation
-We are a business guided by numbers, we need extract all information go generate insghts about sales, and products
 
 # what we not going do
 
